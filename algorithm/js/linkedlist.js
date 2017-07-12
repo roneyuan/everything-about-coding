@@ -92,3 +92,10 @@ linkedlist.insert(0, 0);
 linkedlist.insert(0, 1);
 linkedlist.insert(0, 2);
 
+/*
+Write an algorithm to find the middle element of a linked list without using the .length property
+Write an algorithm to find the third element from the end of a linked list without using the .length property
+Write an algorithm to reverse a linked list
+Write an algorithm to find whether a linked list has a cycle (i.e. whether a node in the list has its next value pointing to an earlier node in the list)
+*/
+
