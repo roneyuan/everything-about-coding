@@ -80,26 +80,26 @@ function log2(node) {
 }
 
 
- let bst = new BinarySearchTree(50);
- bst.insert(30);
- bst.insert(70);
- bst.insert(100);
- bst.insert(60);
- bst.insert(55);
- bst.insert(20);
- bst.insert(35);
- bst.insert(45);
- bst.insert(85);
- bst.insert(105);
- bst.insert(10);
+let bst = new BinarySearchTree(50);
+bst.insert(30);
+bst.insert(70);
+bst.insert(100);
+bst.insert(60);
+bst.insert(55);
+bst.insert(20);
+bst.insert(35);
+bst.insert(45);
+bst.insert(85);
+bst.insert(105);
+bst.insert(10);
 
- bst.contains(15);
+bst.contains(15);
 
- bst.inOrderDepthFirstTraversal(log);
- bst.preOrderDepthFirstTraversal(log);
- bst.postOrderDepthFirstTraversal(log);
+bst.inOrderDepthFirstTraversal(log);
+bst.preOrderDepthFirstTraversal(log);
+bst.postOrderDepthFirstTraversal(log);
 
- bst.breadthFirstTraversal(log2);
+bst.breadthFirstTraversal(log2);
 
- console.log("MIN:", bst.getMinValue());
- console.log("MAX:", bst.getMaxValue());
+console.log("MIN:", bst.getMinValue());
+console.log("MAX:", bst.getMaxValue());
